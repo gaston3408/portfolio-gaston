@@ -1,0 +1,127 @@
+*, *:before *:after {
+  box-sizing: inherit
+}
+html, body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  background-image: linear-gradient(120deg,#303131,#080808);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  /* height: 100vh; */
+  font-family: 'Josefin Sans','sans-serif', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.button-menu {
+  position: absolute ;
+  top: 10px;
+  left: 10px;
+  width:50px ;
+  height:50px;
+  background-color: transparent;
+  border-width: 0;
+  border-style: none;
+  padding: 0;
+  border-color: transparent;
+}
+.button-menu i{
+  font-size: 2em;
+  background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff8a00;
+}
+.button-menu i:hover{
+  transform: translate( 0 , -0.3rem);
+  filter: drop-shadow(0 0.5rem 0.5rem #ff8a00);
+  font-weight: bold;
+}
+.button-menu i:active {
+  transform: none;
+  filter: none;
+}
+.button-menu:focus {
+    outline: none
+}
+
+.nav {
+  color: white;
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+.gradient-text {
+  background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff8a00;
+}
+.nav .gradient-text:hover{
+  transform: translate( 0 , -0.3rem);
+  filter: drop-shadow(0 0.5rem 0.5rem #ff8a00);
+  font-weight: bold;
+}
+.nav .gradient-text:active{
+  transform: none;
+  filter: none;
+  font-weight: normal;
+}
+
+   .nav.active-nav {
+      /* top: -15px; */
+      left:0px
+   }
+@media screen and (min-width: 640px) {
+  .button-menu{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav {
+    list-style: none;
+    height: 100vh;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* left: 0; */
+    left: -600px;
+    /* top: -115%; */
+    top: -30px;
+    background-image: linear-gradient(120deg,#303131,#080808);
+    transition: all 0.5s ease-in-out;
+    width: 100vw;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+  }
+  .nav-link{
+    height: 100px;
+    width: 50%;
+    padding-left: 2rem;
+  }
+  .nav-link:first-of-type{
+    margin-top: 60px
+  }
+
+}
+
