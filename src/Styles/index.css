@@ -9,7 +9,7 @@ html, body{
 }
 
 body {
-  background-image: linear-gradient(120deg,#303131,#080808);
+  background: linear-gradient(150deg, rgba(7, 7, 7, 0.986) , #0c0c0cd0), url("../images/UPcDy2.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -63,10 +63,12 @@ code {
 .nav {
   color: white;
   display: flex;
-  width: 50vw;
+  width: 90vh;
+  /* flex-grow: 1; */
   justify-content: space-between;
   margin-top: 30px;
 }
+
 
 
 .gradient-text {
@@ -104,10 +106,11 @@ code {
     flex-direction: column;
     justify-content: flex-start;
     /* left: 0; */
-    left: -600px;
+    left: -650px;
     /* top: -115%; */
+    z-index: 999;
     top: -30px;
-    background-image: linear-gradient(120deg,#303131,#080808);
+    background-image: linear-gradient(to right,#303131,#080808);
     transition: all 0.5s ease-in-out;
     width: 100vw;
     padding-left: 2rem;
@@ -123,5 +126,14 @@ code {
     margin-top: 60px
   }
 
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 

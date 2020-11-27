@@ -18,10 +18,10 @@ const Nav = () => {
                 <button className="button-menu" type="button" onClick={ handleShowMenu }>
                     <i className={ `fas ${menu ? 'fa-times' : 'fa-bars'}` } />
                 </button>
-                <Link className="gradient-text nav-link" to="/">Home</Link>
-                <Link className="gradient-text nav-link" to="/#">Proyectos</Link>
-                <Link className="gradient-text nav-link" to="/#">Skills</Link>
-                <Link className="gradient-text nav-link" to="/#">Contacto</Link>
+                <Link className="gradient-text nav-link" to="/" onClick={ handleShowMenu }>Home</Link>
+                <Link className="gradient-text nav-link" to="/proyects" onClick={ handleShowMenu }>Proyectos</Link>
+                <Link className="gradient-text nav-link" to="/#" onClick={ handleShowMenu }>Skills</Link>
+                <Link className="gradient-text nav-link" to="/#" onClick={ handleShowMenu }>Contacto</Link>
             </nav>
         </div>
     ) ;
