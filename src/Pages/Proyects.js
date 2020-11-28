@@ -32,7 +32,11 @@ const Proyects = () => (
                     </div>
                     <a title="visitar" href="https://ventas-5eb5a.web.app" target="blank"><img className="img-proyects" src={ proyect2 } alt="proyecto vue" /></a>
                     <h3>Proyecto propio de practica</h3>
-                    <p>Tienda online simple con carrito de compras</p>
+                    <p>
+                        Tienda online simple con carrito de compras.
+                        Típico carrito en el cual el usuario puede registrarse y tener la
+                        funcionalidad de compra. Contiene links a redes sociales y lugar físico.
+                    </p>
                 </div>
                 <div className="card">
                     <div className="tecnology-container">
@@ -48,7 +52,14 @@ const Proyects = () => (
                     </div>
                     <a title="visitar" href="https://360sfc.space/" target="blank"><img className="img-proyects" src={ proyect1 } alt="proyecto react" /></a>
                     <h3>Participación en proyecto</h3>
-                    <p>Plataforma interactiva de juegos con sistema de administración</p>
+                    <p>
+                        Plataforma interactiva de juegos con sistema de administración.
+                        Esta cuanta con unos 4 juegos donde el usuario puede ganar retos y
+                        promociones
+                        cuenta con un sistema de administracion de usuarios de negocio y usuarios
+                        normales. A su vez uno de los juegos contiene un sistema de generacion de
+                        torneos.
+                    </p>
                 </div>
             </div>
         </div>
