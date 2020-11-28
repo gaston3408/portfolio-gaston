@@ -21,6 +21,7 @@ const Nav = () => {
                 <Link className="gradient-text nav-link" to="/" onClick={ handleShowMenu }>Home</Link>
                 <Link className="gradient-text nav-link" to="/proyects" onClick={ handleShowMenu }>Proyectos</Link>
                 <Link className="gradient-text nav-link" to="/skills" onClick={ handleShowMenu }>Skills</Link>
+                <Link className="gradient-text nav-link" to="/about-me" onClick={ handleShowMenu }>Sobre mi</Link>
                 <Link className="gradient-text nav-link" to="/contact" onClick={ handleShowMenu }>Contacto</Link>
             </nav>
         </div>

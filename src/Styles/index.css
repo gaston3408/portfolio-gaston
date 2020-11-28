@@ -151,4 +151,29 @@ code {
 .skills-container {
   max-width: 800px;
 }
+/* about me */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.about-container * {
+  margin: 10px;
+}
+
+.about-container img{
+  margin-top: 20px !important;
+}
+
+@media screen and (max-width: 640px){
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .about-container img{
+    width: 60px;
+  }
+}
 
