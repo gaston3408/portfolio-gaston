@@ -147,4 +147,8 @@ code {
   align-items: center;
 }
 
+/* skills */
+.skills-container {
+  max-width: 800px;
+}
 

@@ -30,7 +30,7 @@ const Proyects = () => (
                         <img title="Firebase" width="25px" height="25px" src={ firebase } alt="firebase" />
                         <img title="Git" width="25px" height="25px" src={ git } alt="git" />
                     </div>
-                    <a href="https://ventas-5eb5a.web.app" target="blank"><img className="img-proyects" src={ proyect2 } alt="proyecto vue" /></a>
+                    <a title="visitar" href="https://ventas-5eb5a.web.app" target="blank"><img className="img-proyects" src={ proyect2 } alt="proyecto vue" /></a>
                     <h3>Proyecto propio de practica</h3>
                     <p>Tienda online simple con carrito de compras</p>
                 </div>
@@ -46,7 +46,7 @@ const Proyects = () => (
                         <img title="PostgreSQL" width="25px" height="25px" src={ postgre } alt="postgreSQL" />
                         <img title="Git" width="25px" height="25px" src={ git } alt="git" />
                     </div>
-                    <a href="https://360sfc.space/" target="blank"><img className="img-proyects" src={ proyect1 } alt="proyecto react" /></a>
+                    <a title="visitar" href="https://360sfc.space/" target="blank"><img className="img-proyects" src={ proyect1 } alt="proyecto react" /></a>
                     <h3>Participación en proyecto</h3>
                     <p>Plataforma interactiva de juegos con sistema de administración</p>
                 </div>

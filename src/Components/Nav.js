@@ -20,8 +20,8 @@ const Nav = () => {
                 </button>
                 <Link className="gradient-text nav-link" to="/" onClick={ handleShowMenu }>Home</Link>
                 <Link className="gradient-text nav-link" to="/proyects" onClick={ handleShowMenu }>Proyectos</Link>
-                <Link className="gradient-text nav-link" to="/#" onClick={ handleShowMenu }>Skills</Link>
-                <Link className="gradient-text nav-link" to="/#" onClick={ handleShowMenu }>Contacto</Link>
+                <Link className="gradient-text nav-link" to="/skills" onClick={ handleShowMenu }>Skills</Link>
+                <Link className="gradient-text nav-link" to="/contact" onClick={ handleShowMenu }>Contacto</Link>
             </nav>
         </div>
     ) ;
