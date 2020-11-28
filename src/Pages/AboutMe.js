@@ -15,6 +15,7 @@ const AboutMe = () => (
                     </div>
                 </div>
             </section>
+
         </div>
     </>
 ) ;

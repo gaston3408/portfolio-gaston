@@ -24,6 +24,7 @@ const Contact = () => (
 
                 </div>
             </section>
+            <p className="firm gradient-text">by Gastón Camaño</p>
         </div>
     </>
 ) ;
