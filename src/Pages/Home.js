@@ -7,11 +7,12 @@ const Home = () => (
     <>
         <Nav />
         <main className="container">
-            <img width="200px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
+            <img className="img-main" width="200px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
             <section>
                 <h3 className="text">Hola mi nombre es Gastón.</h3>
                 <p className="text">Full-Stack Developer</p>
             </section>
+
             <p className="firm gradient-text">by Gastón Camaño</p>
         </main>
     </>
