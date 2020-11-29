@@ -2,7 +2,7 @@
   box-sizing: inherit
 }
 html, body{
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 0;
   padding: 0;
 }
@@ -143,13 +143,14 @@ code {
   width: 100%;
   /* height: 90vh; */
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
 /* skills */
 .skills-container {
   max-width: 800px;
+  min-width: 300px;
 }
 /* about me */
 .about-container {
@@ -175,5 +176,6 @@ code {
   .about-container img{
     width: 60px;
   }
+
 }
 

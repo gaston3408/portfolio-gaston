@@ -17,12 +17,11 @@
 }
 
 .contact-container .link-social:hover{
-    background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
+    /* background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #ff8a00;
+    -webkit-text-fill-color: transparent; */
     transform: translate( 0 , -0.3rem);
-    filter: drop-shadow(0 0.3rem 0.3rem #ff8a00);
+    filter: drop-shadow(0 0.3rem 0.3rem #eeeae6);
     transform: scale(1.20,1.20);
 }
 
@@ -30,10 +29,5 @@
     .contact{
         margin-top: 150px;
     }
-    .contact-container .link-social{
-        background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: #ff8a00;
-    }
+    
 }
