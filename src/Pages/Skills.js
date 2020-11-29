@@ -15,7 +15,7 @@ import postgre from '../images/postgre.png' ;
 const Skills = () => (
     <>
         <Nav />
-        <div className="container">
+        <div className="container margin-proyects">
             <section className="skills-container">
                 <p className="text">
                     A lo largo de mi desarrollo como programador he aprendido

@@ -18,7 +18,7 @@ import '../Styles/proyects.css' ;
 const Proyects = () => (
     <>
         <Nav />
-        <div className="container">
+        <div className="container margin-proyects">
             <h3 className="gradient-text">Proyectos</h3>
             <div className="card-container">
                 <div className="card">
@@ -62,9 +62,6 @@ const Proyects = () => (
                     </p>
                 </div>
             </div>
-        </div>
-        <div className="firm-proyect-container">
-            <p className="gradient-text">by Gastón Camaño</p>
         </div>
     </>
 ) ;

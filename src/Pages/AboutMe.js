@@ -5,7 +5,7 @@ import picture from '../images/foto-perfil-gaston.jpeg' ;
 const AboutMe = () => (
     <>
         <Nav />
-        <div className="container">
+        <div className="container margin-proyects">
             <section className="skills-container">
                 <div className="about-container">
                     <img className="img-main" width="100px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
@@ -15,7 +15,6 @@ const AboutMe = () => (
                     </div>
                 </div>
             </section>
-
         </div>
     </>
 ) ;

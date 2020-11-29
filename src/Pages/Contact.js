@@ -5,7 +5,7 @@ import '../Styles/contact.css' ;
 const Contact = () => (
     <>
         <Nav />
-        <div className="container contact">
+        <div className="container align-content">
             <section className="contact-container">
                 <h3 className="text">Contactame</h3>
                 <div>
@@ -24,7 +24,7 @@ const Contact = () => (
 
                 </div>
             </section>
-            <p className="firm gradient-text">by Gastón Camaño</p>
+            <p className="gradient-text">by Gastón Camaño</p>
         </div>
     </>
 ) ;
