@@ -19,7 +19,7 @@ const Skills = () => (
             <section className="skills-container">
                 <p className="text">
                     A lo largo de mi desarrollo como programador he aprendido
-                    diversas tecnologias con las que, hoy en día, me siento cómodo
+                    diversas tecnologías con las que, hoy en día, me siento cómodo
                     y otras que me encantan y que aún sigo aprendiendo,
                     en definitiva de eso se trata de seguir mejorando día a día.
                 </p>
