@@ -10,7 +10,7 @@ const Home = () => (
             <img className="img-main" width="200px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
             <section>
                 <h3 className="text">Hola mi nombre es Gastón.</h3>
-                <p className="text">Full-Stack Developer</p>
+                <p className="text">Desarrollador Web</p>
             </section>
             <p className="gradient-text">by Gastón Camaño</p>
         </main>
