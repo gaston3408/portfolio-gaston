@@ -22,7 +22,7 @@ const proyects = [
     {
         id: 3,
         title: 'Proyecto propio de practica React js',
-        description: 'Filtro de hoteles de varios lugares de sudamerica , por fechas, paices, habitaciones y precios. Uso de ciclo de vida  y reutilización de componentes',
+        description: 'Filtro de hoteles de varios lugares de sudamerica , por fechas, países, habitaciones y precios. Uso de ciclo de vida  y reutilización de componentes',
         url: 'https://proyect-hotels.vercel.app/',
         tecnologies: [ 'Javascript', 'Reactjs', 'Css', 'Git' ],
         alt: 'Proyecto React',

@@ -14,7 +14,7 @@ const Card = ( { proyect } ) => (
             </div>
             {
                 proyect.isVideo ? (
-                    <video className="img-proyects" key={ proyect.id } width="25px" height="25px" src={ `./videos/proyect${proyect.id}.mp4` } controls muted poster={ `./images/proyect${proyect.id}.png` } />
+                    <video className="img-proyects" key={ proyect.id } src={ `./videos/proyect${proyect.id}.mp4` } controls muted poster={ `./images/proyect${proyect.id}.png` } />
                 ) : (
                     <a title="visitar" href={ proyect.url } target="blank"><img className="img-proyects" src={ `./images/proyect${proyect.id}.png` } alt={ proyect.alt } /></a>
 
