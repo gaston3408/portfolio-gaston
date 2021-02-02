@@ -22,7 +22,11 @@ const Skills = () => (
                     diversas tecnologías con las que, hoy en día, me siento cómodo
                     y otras que me encantan y que aún sigo aprendiendo,
                     en definitiva de eso se trata de seguir mejorando día a día.
+                    Ádemas he participado de varios proyectos reales que me dieron
+                    experiencia en bastantes problemas cotideanos que uno puede tener
+                    programando.
                 </p>
+
                 <h3 className="text gradient-text">Skills</h3>
                 <div className="tecnology-container">
                     <img title="javascript" width="50px" height="50px" src={ js } alt="js" />
@@ -41,6 +45,13 @@ const Skills = () => (
                 </div>
                 <h3 className="text gradient-text">Nivel de ingles</h3>
                 <p className="text">Pre - Intermediate</p>
+                <h3 className="text gradient-text">Utilidades</h3>
+                <p className="text">
+                    Visual Studio Code - Postman - Docker (Básico)
+                    { ' ' }
+                    <br />
+                    DBeaver - MongoDB compass - Devtools
+                </p>
             </section>
         </div>
     </>

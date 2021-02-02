@@ -13,6 +13,10 @@ const Home = () => (
                 <p className="text">Desarrollador Web</p>
             </section>
             <p className="gradient-text">by Gastón Camaño</p>
+            <a className="gradient-text" style={ { paddingTop: '3px', backgroundColor: 'gray' } } target="blank" href="https://github.com/gaston3408/portfolio-gaston">
+                <i className="fab fa-github-square fa-1x" />
+                { ' View portfolio code' }
+            </a>
         </main>
     </>
 ) ;
