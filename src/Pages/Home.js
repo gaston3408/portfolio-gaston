@@ -1,23 +1,23 @@
-import React, { useState , useEffect} from 'react' ;
-import picture from '../images/foto-perfil-gaston.jpeg' ;
-import Nav from '../Components/Nav' ;
-import '../Styles/home.css' ;
+import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
+import Nav from '../Components/Nav';
+import picture from '../images/foto-perfil-gaston.jpeg';
+import '../Styles/home.css';
 
 const Home = () => (
     <>
         <Nav />
         <main className="container align-content">
             <img className="img-main" width="200px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
-            <section className='alignItems'>
-                <h3 className="text" style={{marginTop:30, marginBottom:10, fontSize: 17}}>Hola mi nombre es Gastón</h3>
+            <section className="alignItems">
+                <h1 className="textTitle" style={{ marginTop: 30, marginBottom: 10 }}>Hola mi nombre es Gastón</h1>
                 <TypeWriterEffect
                     textStyle={{ 
-                        fontSize:'17px',
+                        fontSize: '18px',
                         fontFamily: 'monospace',
                         color: 'wheat',
                         paddingBottom: '30px',
-                        fontWeight: 'normal'
+                        fontWeight: 'normal',
                     }}
                     startDelay={100}
                     cursorColor="white"

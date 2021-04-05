@@ -49,6 +49,14 @@
 .text{
     padding-bottom: 20px;
 }
+.textTitle {
+    font-family:  monospace;
+    color: wheat;
+    font-size: 160%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
 
 @media screen and (max-width: 640px){
     .container .img-main{
@@ -56,6 +64,9 @@
     }
     .container .img-main:hover{
         transform: scale(1, 1);
+    }
+    .textTitle {
+        font-size: 150%;
     }
     .text {
         font-size: 120%;
