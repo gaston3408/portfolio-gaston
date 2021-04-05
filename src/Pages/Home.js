@@ -9,25 +9,27 @@ const Home = () => (
         <Nav />
         <main className="container align-content">
             <img className="img-main" width="200px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
-            <section>
-                {/* <h3 className="text animate-text">Hola mi nombre es Gastón.</h3> */}
+            <section className='alignItems'>
+                <h3 className="text" style={{marginTop:30, marginBottom:10, fontSize: 17}}>Hola mi nombre es Gastón</h3>
                 <TypeWriterEffect
                     textStyle={{ 
+                        fontSize:'17px',
                         fontFamily: 'monospace',
                         color: 'wheat',
-                        paddingTop: '30px'
+                        paddingBottom: '30px',
+                        fontWeight: 'normal'
                     }}
                     startDelay={100}
                     cursorColor="white"
-                    text="Hola mi nombre es Gastón."
+                    text="Desarrollador Web."
                     typeSpeed={100}
                 />
-                <p className="text" >Desarrollador Web</p>
+                {/* <p className="text" >Hola mi nombre es Gastón</p> */}
             </section>
             <p className="gradient-text">by Gastón Camaño</p>
             <a className="gradient-text" style={ { paddingTop: '3px', backgroundColor: 'gray' } } target="blank" href="https://github.com/gaston3408/portfolio-gaston">
                 <i className="fab fa-github-square fa-1x" />
-                { ' View portfolio code' }
+                { ' Go to portfolio code' }
             </a>
         </main>
     </>

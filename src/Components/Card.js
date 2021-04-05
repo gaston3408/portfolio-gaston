@@ -30,7 +30,7 @@ const Card = ( { proyect } ) => (
                 && (
                     <a className="gradient-text" target="blank" href={ proyect.code }>
                         <i className="fab fa-github-square fa-1x" />
-                        { ' View code' }
+                        { ' Go to code' }
                     </a>
                 )
                 }
