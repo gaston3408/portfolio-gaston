@@ -1,17 +1,34 @@
 import React from 'react'
 
+const LinkImage = ({children, url}) => (
+    <>
+    {
+        url ? 
+        <a 
+            title="visitar" 
+            target="blank"
+            href={ url }
+        >
+            {children}
+        </a>
+        :
+        <div>
+            {children}
+        </div>
+    }
+    </>
+)
+
 const ImageContent = ({proyect}) => (
-    <a 
-        title="visitar" 
-        href={ proyect.url } 
-        target="blank"
+    <LinkImage
+        url={ proyect.url } 
     >
         <img 
             className="img-proyects" 
             src={ `./images/proyect${proyect.id}.png` } 
             alt={ proyect.alt } 
         />
-    </a>
+    </LinkImage>
     )
 
 export default ImageContent

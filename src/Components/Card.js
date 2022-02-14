@@ -20,13 +20,13 @@ const Card = ( { proyect } ) => {
                     <br />
                     <br />
                     {
-                        proyect.code
-                    && (
-                        <a className="gradient-text" target="blank" href={ proyect.code }>
-                            <i className="fab fa-github-square fa-1x" />
-                            { ' Go to code' }
-                        </a>
-                    )
+                        proyect.code && 
+                        (
+                            <a className="gradient-text" target="blank" href={ proyect.code }>
+                                <i className="fab fa-github-square fa-1x" />
+                                { ' Go to code' }
+                            </a>
+                        )
                     }
                 </p>
                 

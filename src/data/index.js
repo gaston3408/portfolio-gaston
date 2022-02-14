@@ -1,7 +1,7 @@
 const proyects = [
     {
         id: 1,
-        title: 'Proyecto propio de practica Vue js',
+        title: 'Proyecto Vue js',
         description: 'Tienda online simple con carrito de compras. Típico carrito en el cual el usuario puede registrarse y tener lafuncionalidad de compra. Contiene links a redes sociales y lugar físico.',
         url: 'https://ventas-5eb5a.web.app',
         tecnologies: [ 'Javascript', 'Vuejs', 'Bootstrap', 'Css', 'Firebase', 'Git' ],
@@ -21,7 +21,7 @@ const proyects = [
     // },
     {
         id: 3,
-        title: 'Proyecto propio de practica React js',
+        title: 'Proyecto React js',
         description: 'Filtro de hoteles de varios lugares de sudamerica , por fechas, países, habitaciones y precios. Uso de ciclo de vida  y reutilización de componentes',
         url: 'https://proyect-hotels.vercel.app/',
         tecnologies: [ 'Javascript', 'Reactjs', 'Css', 'Git' ],
@@ -31,7 +31,7 @@ const proyects = [
     },
     {
         id: 4,
-        title: 'Proyecto propio de practica React js',
+        title: 'Proyecto React js',
         description: 'Maquetación simple responsive, uso de css nativo, flexbox, y componentes reutilizables de react',
         url: 'https://single-page.gaston3408.vercel.app/',
         tecnologies: [ 'Javascript', 'Reactjs', 'Css', 'Git' ],
@@ -41,7 +41,7 @@ const proyects = [
     },
     {
         id: 5,
-        title: 'Proyecto propio de practica React js',
+        title: 'Proyecto React js',
         description: 'Aplicación de noticias relevantes de argentina. Consumo de api de noticias, búsqueda por sección, custom hooks, reutilización de componentes y paginación',
         url: null,
         tecnologies: [ 'Javascript', 'Reactjs', 'Bootstrap', 'Git' ],
@@ -51,7 +51,7 @@ const proyects = [
     },
     {
         id: 6,
-        title: 'Proyecto propio de practica React js',
+        title: 'Proyecto React js',
         description: 'CRUD firebase, usando Redux para el estado global , bootstrap para dar estilos y sweetalert',
         url: null,
         tecnologies: [ 'Javascript', 'Reactjs', 'Bootstrap', 'Git' ],
