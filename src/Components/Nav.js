@@ -1,5 +1,6 @@
 import React, { useState } from 'react' ;
 import { Link } from 'react-router-dom' ;
+import dashRoutes from '../Routes';
 
 const Nav = () => {
     const [ menu, setMenu ] = useState( false ) ;
@@ -18,11 +19,11 @@ const Nav = () => {
                 <button className="button-menu" type="button" onClick={ handleShowMenu }>
                     <i className={ `fas ${menu ? 'fa-times' : 'fa-bars'}` } />
                 </button>
-                <Link className="gradient-text nav-link" to="/" onClick={ handleShowMenu }>Home</Link>
-                <Link className="gradient-text nav-link" to="/proyects" onClick={ handleShowMenu }>Proyectos</Link>
-                <Link className="gradient-text nav-link" to="/skills" onClick={ handleShowMenu }>Skills</Link>
-                <Link className="gradient-text nav-link" to="/about-me" onClick={ handleShowMenu }>Sobre mi</Link>
-                <Link className="gradient-text nav-link" to="/contact" onClick={ handleShowMenu }>Contacto</Link>
+                {
+                    dashRoutes.map( (route) => (
+                        <Link key={route.name} className="gradient-text nav-link" to={route.path} onClick={ handleShowMenu }>{route.name}</Link>
+                    ))
+                }
             </nav>
         </div>
     ) ;

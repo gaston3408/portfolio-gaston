@@ -2,16 +2,29 @@
 
 .container .img-main{
     margin-top: 50px;
-    border-radius: 50%;
+    border-radius: 20%;
+    opacity: 0.7;
     filter: grayscale(100%);
+    animation: visible 2000ms ease-in;
 }
+
+@keyframes visible {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.7;
+    }
+}
+
 .container .img-main:hover{
-    filter: grayscale(0%);
+    filter: grayscale(30%);
     transform: scale(1.10, 1.10);
 }
 .container .img-main-min{
     margin-top: 50px;
-    border-radius: 50%;
+    border-radius: 20%;
+    opacity: 0.7;
     filter: grayscale(100%);
 }
 .container .img-main-min:hover{

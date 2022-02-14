@@ -1,12 +1,10 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
-import Nav from '../Components/Nav';
 import picture from '../images/foto-perfil-gaston.jpeg';
+import withLayout from '../Providers/withLayout';
 import '../Styles/home.css';
 
 const Home = () => (
-    <>
-        <Nav />
         <main className="container align-content">
             <img className="img-main" width="200px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
             <section className="alignItems">
@@ -32,7 +30,6 @@ const Home = () => (
                 { ' Go to portfolio code' }
             </a>
         </main>
-    </>
 );
 
-export default Home ;
+export default withLayout(Home) ;
