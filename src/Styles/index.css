@@ -1,3 +1,8 @@
+:root{
+  --gradient-color-first: #7ad4eb;
+  --gradient-color-second: #6970d8;
+}
+
 *, *:before *:after {
   box-sizing: inherit
 }
@@ -47,14 +52,14 @@ code {
 }
 .button-menu i{
   font-size: 2em;
-  background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
+  background: -webkit-linear-gradient(20deg,var(--gradient-color-first),var(--gradient-color-second));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #ff8a00;
+  color: var(--gradient-color-first);
 }
 .button-menu i:hover{
   transform: translate( 0 , -0.3rem);
-  filter: drop-shadow(0 0.5rem 0.5rem #ff8a00);
+  filter: drop-shadow(0 0.5rem 0.5rem var(--gradient-color-first));
   font-weight: bold;
 }
 .button-menu i:active {
@@ -78,14 +83,14 @@ code {
 
 
 .gradient-text {
-  background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
+  background: -webkit-linear-gradient(20deg,var(--gradient-color-first),var(--gradient-color-second));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #ff8a00;
+  color: var(--gradient-color-first);
 }
 .nav .gradient-text:hover{
   transform: translate( 0 , -0.3rem);
-  filter: drop-shadow(0 0.5rem 0.5rem #ff8a00);
+  filter: drop-shadow(0 0.5rem 0.5rem var(--gradient-color-first));
   font-weight: bold;
 }
 .nav .gradient-text:active{

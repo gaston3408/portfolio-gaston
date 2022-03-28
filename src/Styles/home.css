@@ -36,8 +36,8 @@
     margin: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    border-top : 2px solid#ff5e00;
-    border-bottom : 2px solid #ff5e00;
+    border-top : 2px solid var(--gradient-color-first);
+    border-bottom : 2px solid var(--gradient-color-first);
     text-align: center;
 }
 .alignItems {

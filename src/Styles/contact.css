@@ -18,7 +18,7 @@
 }
 
 .contact-container .link-social:hover{
-    /* background: -webkit-linear-gradient(20deg,#ff8a00,#e52e71);
+    /* background: -webkit-linear-gradient(20deg,var(--gradient-color-first),var(--gradient-color-second));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     transform: translate( 0 , -0.3rem);
