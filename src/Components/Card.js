@@ -22,8 +22,8 @@ const Card = ( { proyect } ) => {
                     {
                         proyect.code && 
                         (
-                            <a className="gradient-text" target="blank" href={ proyect.code }>
-                                <i className="fab fa-github-square fa-1x" />
+                            <a className="gradient-text github-link" target="blank" href={ proyect.code }>
+                                <i className="fab fa-github-square fa-1x" style={{ marginRight: 5}}/>
                                 { ' Go to code' }
                             </a>
                         )

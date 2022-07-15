@@ -3,11 +3,11 @@ import VideoContent from "../Components/VideoContent";
 
 const ContentFactory = ({proyect, type}) => {
     const content ={
-        video: <VideoContent proyect={proyect} />,
-        image: <ImageContent proyect={proyect} />
+        video: VideoContent,
+        image: ImageContent
     }
 
-    return content[type];
+    return content[type]({proyect});
 }
 
 export default ContentFactory;

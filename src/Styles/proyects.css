@@ -10,12 +10,8 @@
 }
 .card-container .card{
     border-top: 2px solid var(--gradient-color-first);
-    /* border-image : -webkit-linear-gradient(90deg,var(--gradient-color-first),var(--gradient-color-second)) 2;
-    -webkit-background-clip: border;
-    -webkit-border-fill-color: transparent;
-    color: var(--gradient-color-first); */
     display: flex;
-    width: 280px;
+    width: 30%;
     min-height: 400px ;
     height: auto;
     margin-bottom: 100px;   
@@ -31,17 +27,15 @@
 }
 
 .card-container .card p {
+    position: relative;
     margin: 0;
     padding-bottom: 20px;
     border-bottom: 2px solid var(--gradient-color-first);
-    /* border-image : -webkit-linear-gradient(90deg,var(--gradient-color-first),var(--gradient-color-second)) 2;
-    -webkit-background-clip: border;
-    -webkit-border-fill-color: transparent;
-    color: var(--gradient-color-first); */
+    min-height: 120px;
 }
 .card-container .card .img-proyects{
     display: flex;
-    width: 280px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     filter: grayscale(100%)
@@ -82,6 +76,29 @@
     right: 20px;
 }
 
+.github-link {
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 15px;
+}
+
+@media screen and (max-width: 1200px){
+    .card-container {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .card-container .card{
+        width: 40%;
+    }
+    .card-container {
+        width: 80vw;
+    }
+}
+
 @media screen and (max-width: 857px){
     .firm-proyect-container p{
         display: block;
@@ -103,5 +120,12 @@
 
     .card-container .card{
         margin-bottom: 30px;
+        width: 100%;
     }
+
+    .card-container .card p {
+        min-height: 50px;
+        padding-bottom: 35px;
+    }
+
 }
