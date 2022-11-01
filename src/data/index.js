@@ -2,7 +2,7 @@ const proyects = [
     {
         id: 1,
         title: 'Proyecto React js',
-        description: 'Aplicación del clima con geolocalización y clima de importantes ciudades del mundo. Consumo de apis Google maps y OpenWeatherMap',
+        description: 'Aplicación del clima con geolocalización y clima de importantes ciudades del mundo. Atomic design. Consumo de apis Google maps y OpenWeatherMap',
         url: 'https://weather-xi-sepia.vercel.app',
         tecnologies: [ 'Typescript', 'Reactjs', 'Css' ],
         alt: 'Proyecto React',

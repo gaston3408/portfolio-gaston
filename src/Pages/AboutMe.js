@@ -8,9 +8,11 @@ const AboutMe = () => (
             <div className="about-container">
                 <img className="img-main-min" width="100px" height="auto" src={ picture } alt="Foto de Gaston Camaño" />
                 <div>
-                    <p className="text">Hace ya un tiempo que me decidi por el desarrollo web con javascript, me desempeño tanto en Frontend como en Backend. Actualmente estoy cursando la carrera de Analista en sistemas.</p>
-                    <p className="text"> Soy una persona que dedica su tiempo a mejorar como profesional con buenas prácticas. Algunas de las cosas que más me gustan del día a día son resolver problemas y ayudar a mis compañeros. </p>
-                    <p className="text">Además de seguir en constante aprendizaje, me gusta trabajar en equipo y me desenvuelvo muy bien en ello. </p>
+                    <p className="text" style={{fontSize: '170%'}}>Soy un apasionado por el desarrollo de software, siempre dispuesto a adquirir nuevos conocimientos.</p>
+                    <p className="text" style={{fontSize: '170%'}}>Con la mente creativa y curiosa por las nuevas tendencias.</p>
+                    <p className="text" style={{fontSize: '170%'}}>Futuro analista de sistemas.</p>
+                    <p className="text" style={{fontSize: '170%'}}>Siempre en búsqueda de nuevos desafíos para la motivación personal.</p>
+                    <p className="text" style={{fontSize: '170%'}}>Me adapto rápidamente a los equipos de trabajo.</p>
                 </div>
             </div>
         </section>

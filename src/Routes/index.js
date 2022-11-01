@@ -11,11 +11,6 @@ const dashRoutes = [
         component: Home
     },
     {
-        name: 'Proyectos',
-        path: '/proyects',
-        component: Proyects
-    },
-    {
         name: 'Skills',
         path: '/skills',
         component: Skills
@@ -24,6 +19,11 @@ const dashRoutes = [
         name: 'Sobre mi',
         path: '/about-me',
         component: AboutMe
+    },
+    {
+        name: 'Proyectos',
+        path: '/proyects',
+        component: Proyects
     },
     {
         name: 'Contacto',

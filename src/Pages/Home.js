@@ -10,7 +10,7 @@ const Home = () => (
             <section className="alignItems">
                 <h1 className="textTitle" style={{ marginTop: 30, marginBottom: 10 }}>Hola mi nombre es Gastón</h1>
                 <TypeWriterEffect
-                    textStyle={{ 
+                    textStyle={{
                         fontSize: '18px',
                         fontFamily: 'monospace',
                         color: 'wheat',
@@ -22,12 +22,15 @@ const Home = () => (
                     text="Desarrollador Web."
                     typeSpeed={100}
                 />
-                {/* <p className="text" >Hola mi nombre es Gastón</p> */}
             </section>
             <p className="gradient-text">by Gastón Camaño</p>
+            <a className="gradient-text" style={ { paddingTop: '3px', backgroundColor: 'gray' } } target="blank" href="https://github.com/gaston3408">
+                <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <i className="fab fa-github-square fa-2x" />
+                </div>
+            </a>
             <a className="gradient-text" style={ { paddingTop: '3px', backgroundColor: 'gray' } } target="blank" href="https://github.com/gaston3408/portfolio-gaston">
-                <i className="fab fa-github-square fa-1x" />
-                { ' Go to portfolio code' }
+                <p>{ ' Go to portfolio code' }</p>
             </a>
         </main>
 );
