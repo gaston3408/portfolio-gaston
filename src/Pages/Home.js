@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
-import picture from '../images/foto-perfil-gaston.jpeg';
+import picture from '../images/perfil2.jpg';
 import withLayout from '../Providers/withLayout';
 import '../Styles/home.css';
 
